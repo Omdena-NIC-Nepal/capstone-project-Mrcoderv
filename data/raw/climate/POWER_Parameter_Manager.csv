@@ -1,0 +1,6 @@
+-BEGIN HEADER-
+Parameter(s):
+T2M,Temperature at 2 Meters
+PRECTOTCORR,Precipitation Corrected
+RH2M,Relative Humidity at 2 Meters
+WS2M,Wind Speed at 2 Meters

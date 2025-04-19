@@ -1,0 +1,22 @@
+Environment:
+monthly-fire-counts-in-n.csv	http://nepal.spatialapps.net/NepalForestFire/FireStats
+forest fires in nepal shp files		https://rds.icimod.org/DataExplorer/dataDetail?id=16
+NPL_deforestation_rate.xlsx		https://www.globalforestwatch.org/dashboards/country/NPL/
+
+Climate:
+observed_annual-average-largest-1-day-precipitation.csv
+observed-annual-average-mean-temp.csv
+observed-annulal-relative-humidity.csv
+observed-annual-average-max-temp.csv
+observed-annual-average-min-temp.csv			https://climateknowledgeportal.worldbank.org/country/nepal/era5-historical
+
+eco-socio-env-health-edu-dev-enery_npl.csv
+npl-rainfall-adm2-full.csv		https://data.humdata.org/dataset?q=nepal&sort=last_modified+desc&ext_page_size=25&page=4
+
+Agriculture
+agriculture-and-rural-development_npl.csv		https://data.humdata.org/dataset/world-bank-agriculture-and-rural-development-indicators-for-nepal
+
+socio economic:
+dem_socio_economic_data_npl.csv		https://data.humdata.org/dataset/unesco-data-for-nepal/resource/eeb16e1e-fe5d-494b-87e3-584dd5f9ac93?view_id=aaeb6c99-39c3-4bfd-87c4-a7930724c76c
+
+
