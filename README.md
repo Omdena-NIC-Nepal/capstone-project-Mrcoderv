@@ -14,8 +14,7 @@ An end-to-end analytics platform for monitoring and predicting climate impacts i
 - **Wildfire Pattern Recognition**
 - **Socioeconomic Correlation Engine**
 - **Interactive Data Visualization**
-- **OLS Trendline Predictions**
-- **Mobile-responsive Design**
+
 
 ## 🛠️ Installation
 
