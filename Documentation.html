@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nepal Climate Project Documentation</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background-color: #1e1e2f;
+      color: #e0e0e0;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+
+    header, footer {
+      background-color: #6c63ff;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+    }
+
+    main {
+      padding: 2rem 5%;
+    }
+
+    h1, h2, h3 {
+      color: #6c63ff;
+    }
+
+    a {
+      color: #6c63ff;
+    }
+
+    nav {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    pre, code {
+      background-color: #2d2d44;
+      padding: 1rem;
+      border-radius: 5px;
+      overflow-x: auto;
+      font-size: 0.95rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #2d2d44;
+      margin: 1rem 0;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    table th, table td {
+      padding: 0.75rem;
+      border: 1px solid #444;
+    }
+
+    table th {
+      background-color: #6c63ff;
+      color: white;
+    }
+
+    table tr:hover {
+      background-color: #3a3a5c;
+    }
+
+    ul, ol {
+      margin-left: 1.5rem;
+    }
+
+    .code-block {
+      background-color: #2d2d44;
+      padding: 1rem;
+      border: 1px solid #444;
+      border-radius: 5px;
+      margin-top: 1rem;
+    }
+
+    footer p {
+      margin: 0.5rem 0;
+    }
+
+    @media (max-width: 768px) {
+      main {
+        padding: 1.5rem 1rem;
+      }
+
+      nav a {
+        display: block;
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nepal Climate Project Documentation</h1>
+  </header>
+
+  <nav>
+    <a href="#usage">Usage</a>
+    <a href="#data-sources">Data</a>
+    <a href="#structure">Structure</a>
+    <a href="#troubleshooting">Help</a>
+
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="usage">
+      <h2>🚀 Usage</h2>
+      <ol>
+        <li><strong>Preprocess Data:</strong>
+          <pre><code>python src/preprocessing.py</code></pre>
+        </li>
+        <li><strong>Launch Dashboard:</strong>
+          <pre><code>streamlit run src/dashboard.py</code></pre>
+        </li>
+        <li><strong>Open Dashboard:</strong>
+          <a href="http://localhost:8501" target="_blank">http://localhost:8501</a>
+        </li>
+      </ol>
+    </section>
+
+    <section id="data-sources">
+      <h2>📊 Data Sources</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Dataset</th>
+            <th>Source</th>
+            <th>Period</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Temperature Records</td>
+            <td>National Climate Center</td>
+            <td>1950–2023</td>
+          </tr>
+          <tr>
+            <td>Socioeconomic Data</td>
+            <td>World Bank Open Data</td>
+            <td>1970–2023</td>
+          </tr>
+          <tr>
+            <td>Wildfire Incidents</td>
+            <td>NASA FIRMS</td>
+            <td>2013–2023</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="structure">
+      <h2>🗂️ Project Structure</h2>
+      <p>The following image illustrates the project structure:</p>
+      <img src="structure.png" alt="Project Structure" style="max-width: 100%; height: auto; border: 1px solid #444; border-radius: 5px; margin-top: 1rem;">
+    </section>
+
+    <section id="dependencies"> 
+      <h2>📦 Dependencies</h2>
+      <p>Install the required packages using:</p>
+      <pre><code>pip install -r requirements.txt</code></pre>
+    </section>      
+
+    <section id="troubleshooting">
+      <h2>🚨 Troubleshooting</h2>
+      <div class="code-block">
+        <p><strong>🔧 Missing dependencies</strong></p>
+        <pre><code>pip install --upgrade -r requirements.txt</code></pre>
+
+        <p><strong>⚠️ Port conflict</strong></p>
+        <pre><code>streamlit run src/dashboard.py --server.port 8502</code></pre>
+
+        <p><strong>🧹 Clean & Reprocess</strong></p>
+        <pre><code>rm -rf data/processed/ && python src/preprocessing.py</code></pre>
+      </div>
+
+      <h3>✅ Supported Browsers</h3>
+      <ul>
+        <li>Chrome 90+</li>
+        <li>Firefox 88+</li>
+        <li>Safari 15+</li>
+        <li>Edge 91+</li>
+      </ul>
+    </section>
+
+  
+
+    <section id="contact">
+      <h2>📧 Contact</h2>
+      <p><strong>Maintainer:</strong> Raghav Vian Panthi</p>
+      <p>Email: <a href="mailto:raghavap.339@gmail.com">raghavap.339@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/Omdena-NIC-Nepal/capstone-project-Mrcoderv" target="_blank">Omdena NIC Nepal Repo</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Nepal Climate Capstone. All rights reserved.</p>
+  </footer>
+</body>
+</html>
