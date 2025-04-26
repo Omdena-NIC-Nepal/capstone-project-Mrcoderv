@@ -5,7 +5,7 @@
 
 An end-to-end analytics platform for monitoring and predicting climate impacts in Nepal, integrating weather data, environmental indicators, and socioeconomic factors.
 
-![Documentation](https://via.placeholder.com/800x400.png?text=Climate+Dashboard+Interface)
+![Documentation]([https://via.placeholder.com/800x400.png?text=Climate+Dashboard+Interface](https://omdena-nic-nepal.github.io/capstone-project-Mrcoderv/Documentation.html))
 
 ## ✨ Features
 
