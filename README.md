@@ -1,8 +1,5 @@
 # 🌦️ Nepal Climate Change Impact Analysis System
 
-[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://streamlit.io)
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python)](https://www.python.org)
-
 An end-to-end analytics platform for monitoring and predicting climate impacts in Nepal, integrating weather data, environmental indicators, and socioeconomic factors.
 
 📄 **[Project Documentation](https://omdena-nic-nepal.github.io/capstone-project-Mrcoderv/Documentation.html)**
@@ -15,8 +12,6 @@ An end-to-end analytics platform for monitoring and predicting climate impacts i
 - **Socioeconomic Correlation Engine**
 - **Interactive Data Visualization**
 
-
-## 🛠️ Installation
 
 ### Prerequisites
 - Python 3.10+
